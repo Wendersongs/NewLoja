@@ -51,7 +51,7 @@ public class CidadeDAO implements Serializable {
 		return lista;
 	}
         
-        public static List<Cidade> listaFiltrado(int filtro) {
+       /* public static List<Cidade> listaFiltrado(int filtro) {
 		Session sessao = HibernateUtil.getSessionFactory().openSession();
 		Query consulta;
 		if (String.valueOf(filtro).trim().length() == 0) {
@@ -64,6 +64,6 @@ public class CidadeDAO implements Serializable {
 		List lista = consulta.list();
 		sessao.close();
 		return lista;
-	}
+	}*/
 
 }

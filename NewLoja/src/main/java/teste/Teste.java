@@ -10,19 +10,13 @@ import persistencia.ProdutoDAO;
 public class Teste {
 	
     public static void main(String[] args) {
-        List<Cidade> listaCidade = listaCidades();
+        List<Cidade> listaCidade = CidadeDAO.listagem(null);
     
     
     }
 	
 	
-public static void main (){
-
-    
-}
 
 
-public static List<Cidade> listaCidades() {
-        return CidadeDAO.listaFiltrado(1);
-    }
+
 }

@@ -37,9 +37,6 @@ public class PessoaCtrl implements Serializable {
         return PessoaDAO.listagem("");
     }
     
-      public List<Cidade> listaCidade() {
-        return CidadeDAO.listaFiltrado(1);
-    }
    public List<Estado> listaEstado() {
         return UfDAO.listagem("");
     }
