@@ -12,7 +12,7 @@
                 <form-login login-page="/publico/login.xhtml"
                 always-use-default-target="true"
                 default-target-url="/admin/principal.xhtml"
-                authentication-failure-url="/publico/Login.xhtml?Login_error=1"/>
+                authentication-failure-url="/publico/login.xhtml?Login_error=1"/>
                 <logout logout-success-url="/publico/index.xhtml"/>
                 <remember-me/>
 	</http>
