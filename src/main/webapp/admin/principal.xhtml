@@ -8,10 +8,18 @@
       xmlns:p="http://primefaces.org/ui">
 
     <h:head>
-        <title>Área do Cliente</title>
+        <title>Área Administrativa</title>
     </h:head>
     <h:body>	
         <h1> <h:outputText value="Área - Cliente"/></h1>
+        <h:form>
+        	<ul>
+        		<li><h:commandLink value = "Produto" action = "/admin/lista_produto.xhtml"/></li>
+        		<li><h:commandLink value = "Cliente" action = "/admin/lista_pessoa.xhtml"/></li>
+        	
+        	</ul>
+        
+        </h:form>
     </h:body>
 
 </html>
