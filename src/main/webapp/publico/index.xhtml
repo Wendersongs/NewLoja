@@ -13,29 +13,14 @@
     </h:head>
     <h:body>	
         <h:form>
-            <div align="center">
-                <p:menubar>
-                    <p:submenu label="Arquivo" icon="ui-icon-document">
-                        <p:menuitem value="Home" action="index" icon="ui-icon-home" />
-                        <p:separator />
-                        <p:menuitem value="Sair" icon="ui-icon-close"  />   
-                    </p:submenu>
-                    <p:submenu label="Produto" icon="ui-icon-suitcase">
-                        <p:menuitem value="Inserir" action="#{produtoCtrl.actionInserir()}" />
-                        <p:separator />
-                        <p:menuitem value="Listar" action="lista_produto" />   
-                    </p:submenu>
-                    <p:submenu label="Pessoa" icon="ui-icon-person">
-                        <p:menuitem value="Inserir" action="#{pessoaCtrl.actionInserir()}" />
-                        <p:separator />
-                        <p:menuitem value="Listar" action="lista_pessoa" />   
-                    </p:submenu>
-                    <p:submenu label="Forma Pagamento" icon="ui-icon-person">
-                        <p:menuitem value="Listar" action="lista_forma_pgto" />   
-
-                    </p:submenu>
-                </p:menubar>
-            </div>
+                  
+        	<ul>
+        		<li><h:outputLink value = "publico/form_pessoa.xhtml">Cadastro de Cliente</h:outputLink></li>
+        		<li><h:outputLink value = "cliente/principal.xhtml">Acessar área de Cliente</h:outputLink></li>
+        		<li><h:outputLink value = "admin/principal.xhtml">Acessar área de Administrador</h:outputLink></li>
+        	</ul>
+        
+        
         </h:form>
     </h:body>
 

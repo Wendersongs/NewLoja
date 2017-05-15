@@ -48,16 +48,8 @@
                     <p:outputLabel value="Endereço"/>
                     <p:inputText  value="#{pessoaCtrl.pessoa.endereco}"  />
                     <p:outputLabel  value="Estado: " />
-                    <p:selectOneMenu id="uf" value="#{pessoaCtrl.pessoa.estado}" style="width:200px">
-
-                        <f:selectItem itemLabel="Selecione um Estado" itemValue="" noSelectionOption="true" />
-                        <f:selectItems value="#{pessoaCtrl.listaEstado()}" />
-                    </p:selectOneMenu>
                     <p:outputLabel  value="Cidade: " />
-                    <p:selectOneMenu id="cidade"  style="width:200px">
-                        <f:selectItem itemLabel="Selecione uma Cidade" itemValue="" noSelectionOption="true" />
-                        <f:selectItems value="#{pessoaCtrl.listaCidade()}" />
-                    </p:selectOneMenu>
+
 
 
 

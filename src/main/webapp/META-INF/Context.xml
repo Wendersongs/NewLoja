@@ -8,6 +8,6 @@
             maxWait = "10000"
             username = "postgres"
             password = "123456"
-            driverClassName = "org.postgressql.Driver"
+            driverClassName = "org.postgresql.Driver"
             url = "jdbc:postgresql://localhost:5432/BDLojaVirtual?autoReconnect=true"/>
 </context>
