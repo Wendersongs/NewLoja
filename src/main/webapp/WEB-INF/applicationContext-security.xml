@@ -20,10 +20,10 @@
 	<authentication-manager>
 		<authentication-provider>
 			<jdbc-user-service data-source-ref="BDLojaVirtualDataSource" 
-                            authorities-by-username-query = "SELECT pes_name, 'ROLE_ADMINISTRADOR'
+                            authorities-by-username-query = "SELECT pessoa_nome, 'ROLE_ADMINISTRADOR'
                                                              FROM pessoa 
-                                                             WHERE pes_email = ?"
-                        users-by-username-query = "SELECT pes_email, pes_senha, '1' FROM pessoa WHERE pes_email = ?"/>
+                                                             WHERE pessoa_email = ?"
+                        users-by-username-query = "SELECT pessoa_email, pessoa_senha, '1' FROM pessoa WHERE pessoa_email = ?"/>
                         
                         
 		</authentication-provider>
