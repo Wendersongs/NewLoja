@@ -13,7 +13,9 @@
     </h:head>
     <h:body>	
         <h:form>
-                  
+              <h:outputLink value="javascript:void(0)" onclick="PF('dlg').show();" title="login">
+        <p:graphicImage name="/demo/images/login.png" />
+    </h:outputLink>        
         	<ul>
         		<li><h:outputLink value = "publico/form_pessoa.xhtml">Cadastro de Cliente</h:outputLink></li>
         		<li><h:outputLink value = "cliente/principal.xhtml">Acessar área de Cliente</h:outputLink></li>
